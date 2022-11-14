@@ -1,0 +1,123 @@
+{
+	"mati": [{
+			"idProducte": 1,
+            "nomProducte": "Entrepà de fuet",
+			"tipus": "menjar",
+			"preu": 1.8,
+			"UrlImg": "../img/bocatafuet.jpg"
+		},
+        {
+			"idProducte": 2,
+            "nomProducte": "Bocata de formatge",
+			"tipus": "menjar",
+			"preu": 1.8,
+			"UrlImg": "../img/bocataformatge.jpg"
+		},
+		{
+			"idProducte": 3,
+            "nomProducte": "bocata de baco",
+			"tipus": "menjar",
+			"preu": 2,
+			"UrlImg": "../img/bocataBacon.jpg"
+		},
+        {
+			"idProducte": 4,
+            "nomProducte": "bocata de baco amb formatge",
+			"tipus": "menjar",
+			"preu": 2.2,
+			"UrlImg": "../img/bocataBacon.jpg"
+		},
+        {
+			"idProducte": 5,
+            "nomProducte": "bocata de llom amb formatge",
+			"tipus": "menjar",
+			"preu": 2.2,
+			"UrlImg": "../img/bocataLlom.jpg"
+		},
+        {
+			"idProducte": 6,
+            "nomProducte": "panini",
+			"tipus": "menjar",
+			"preu": 2,
+			"UrlImg": "../img/panini.jpg"
+		},
+        {
+			"idProducte": 7,
+            "nomProducte": "canya de xocolata",
+			"tipus": "menjar",
+			"preu": 1.5,
+			"UrlImg": "../img/canyaxocolata.jpg"
+		},
+        {
+			"idProducte": 8,
+            "nomProducte": "donut",
+			"tipus": "menjar",
+			"preu": 0.70,
+			"UrlImg": "../img/donut.PNG"
+		},
+        {
+			"idProducte": 9,
+            "nomProducte": "ensaimada",
+			"tipus": "menjar",
+			"preu": 0.50,
+			"UrlImg": "../img/ensaimada.jpg"
+		},
+        {
+			"idProducte": 10,
+            "nomProducte": "aigua petita",
+			"tipus": "beguda",
+			"preu": 0.50,
+			"UrlImg": "../img/aiguaPeke.jpg"
+		},
+        {
+			"idProducte": 11,
+            "nomProducte": "cafe amb llet",
+			"tipus": "beguda",
+			"preu": 1.30,
+			"UrlImg": "../img/cafeambllet.jpg"
+		}
+	],
+	"tarda": [{
+            "idProducte": 12,
+            "nomProducte": "Sopa",
+            "tipus": "menjar",
+            "preu": 2,
+            "UrlImg": "../img/sopa.jpg"
+        },
+        {
+            "idProducte": 13,
+            "nomProducte": "Lasanya",
+            "tipus": "menjar",
+            "preu": 2.2,
+            "UrlImg": "../img/lasagne.jpg"
+        },
+        {
+            "idProducte": 14,
+            "nomProducte": "Truita de patata",
+            "tipus": "menjar",
+            "preu": 2.2,
+            "UrlImg": "../img/tortilladepatata.jpg"
+        },
+        {
+			"idProducte": 10,
+            "nomProducte": "aigua petita",
+			"tipus": "beguda",
+			"preu": 0.50,
+			"UrlImg": "../img/aiguaPeke.jpg"
+		},
+        {
+            "idProducte": 16,
+            "nomProducte": "CocCola.png",
+            "tipus": "beguda",
+            "preu": 0.85,
+            "UrlImg": "../img/coca cola.jpg"
+        },
+        {
+			"idProducte": 17,
+            "nomProducte": "Macarrons amb tomàquet",
+			"tipus": "menjar",
+			"preu": 2.2,
+			"UrlImg": "../img/macarrones.jpg"
+		}
+	]
+}

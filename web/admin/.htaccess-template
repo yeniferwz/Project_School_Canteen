@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Aut Cantina"
+AuthBasicProvider file
+AuthUserFile /home/a21yolmorarr/web/cantina2.alumnes.inspedralbes.cat/public_html/passwd
+Require user pedralbes

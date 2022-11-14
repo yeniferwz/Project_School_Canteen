@@ -1,0 +1,70 @@
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 0.05em;
+    background-color: #fbf8f8;
+}
+
+.fil-ariadna{
+    margin-left: 100px;
+}
+
+.progress.is-orange::-webkit-progress-value{
+    background-color: #ff9505;
+}
+
+.button.is-orange{
+    background-color: #ff9505;
+    color:#fffdfd;
+    border-color: #ff9505;
+    font-weight: bold;
+}
+
+.boxcolumn{
+    margin-top: 88px;
+}
+
+.form{
+    height: 34em;
+}
+
+legend{
+    color:black;
+    text-align: center;
+    margin:auto;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+label{
+    margin:auto;
+}
+
+/*frases error per validar el formulari*/
+.errorNOM, .errorCOGNOM, .errorTELF, .errorCORREU{
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 0 0 20px;
+}
+
+input:focus{
+    outline: none;
+    border:1px solid rgb(197, 195, 195);
+}
+
+input{
+    border:1px solid rgb(197, 195, 195);
+    border-radius: 5px;
+    height: 35px;
+}
+
+.dadesPersonals input {
+    display: block;
+    width: 80%;
+    margin: 5px 0 0 20px;
+}
+label:focus-within {
+    font-weight: bold;
+}

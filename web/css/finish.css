@@ -1,0 +1,39 @@
+*{
+    scroll-padding-top:2rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    font-family: 'Noto Sans', sans-serif;
+}
+/* CSS del breadcrumb */
+.fil-ariadna{
+    margin-left: 100px;
+}
+.contingut{
+    margin-left: 100px;
+    line-height: 1.8em;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.esta-centrat{
+    align-items: center;
+    height: 65vh;
+}
+
+.progress.is-orange::-webkit-progress-value{
+    background-color: #ff9505;
+}
+
+.button.is-orange{
+    background-color: #ff9505;
+    color: white;
+    border-color: #ff9505;
+    font-weight: bold;
+}
+
+body{
+    background-color: #fbf8f8;
+}

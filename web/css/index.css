@@ -1,0 +1,209 @@
+*{
+  scroll-padding-top:2rem;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+}
+html {
+  height: 100%;
+}
+body {
+  color: #111;
+  text-align: center;
+  height: 100%;
+  font-family: 'Noto Sans', sans-serif;
+}
+.buttons{
+  cursor: pointer;
+}
+
+h1 {
+  font: 700 2.8em/1.2 'Noto Sans', sans-serif;
+}
+h2 {
+  font: 700 1.5em/1.5 'Noto Sans', sans-serif;
+  margin: 1em 0;
+}
+
+/******BOTÓ******/
+.arrow-button {
+  display: flex;
+  color: #3b3b3b;
+  background-color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 20px;
+  transition: all .3s ease;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+  font-size: 14px;
+}
+
+.arrow-button > .arrow {
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid #3b3b3b;
+  border-bottom: 2px solid #3b3b3b;
+  position: relative;
+  transform: rotate(-45deg);
+  margin: 0 6px;
+  transition: all .3s ease;
+}
+
+.arrow-button > .arrow::before {
+  display: block;
+  background-color: white;
+  width: 3px;
+  transform-origin: bottom right;
+  height: 2px;
+  position: absolute;
+  opacity: 0;
+  bottom: calc(-2px / 2);
+  transform: rotate(45deg);
+  transition: all .3s ease;
+  content: "";
+  right: 0;
+}
+
+.arrow-button:hover > .arrow {
+  transform: rotate(-45deg) translate(4px, 4px);
+  border-color: white;
+}
+
+.arrow-button:hover > .arrow::before {
+  opacity: 1;
+  width: 8px;
+}
+
+.arrow-button:hover {
+  background-color: #3b3b3b;
+  color: #fff;
+}
+
+/************/
+.contingut{
+  background-color: #fbf8f8;
+}
+
+#banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.247),rgba(0,0,0,0.35)), url('../img/iniciBaner.jpg') no-repeat fixed 100%
+    100%;
+  background-size: cover;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+}
+
+#bannertext {
+  width: 24em;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  /* border: 3px solid #fff; */
+  margin-left: -12em;
+  padding: 3em 0;
+  font-size: larger;
+  font: 400 1.5em/1.5 'Noto Sans', sans-serif;
+  letter-spacing: 0.05em;
+  /* background-color: rgba(163, 163, 163, 0.336); */
+}
+#bannertext h1{
+  letter-spacing: 0.2em;
+}
+.iniciComanda{
+  font-weight: bold;
+}
+.iniciComanda:hover{
+ background-color: rgb(197, 197, 197) !important;
+}
+
+#content {
+  /* max-width: 28em; */
+  text-align: justify;
+  margin: 0 auto;
+  width: 1000px;
+  padding: 2em;
+  font: 400 18px 'Noto Sans', sans-serif;
+}
+
+#content p {
+  margin: 0 0 2em;
+  text-indent: 2em;
+  letter-spacing: 0.03em;
+  line-height: 1.8em;
+}
+.horari{
+  text-align: center;
+}
+
+.mesInfo{
+  text-align: center;
+}
+
+/*CSS de la galeria de fotos */
+
+.slider{
+  position: relative;
+  max-width: 50rem; 
+  height: 27rem; 
+  margin: 0 auto;
+  overflow: hidden;
+}
+.slide{ 
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 26.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 1s;
+}
+.slide > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+button{
+  background: none;
+  border: none;
+}
+button .bx{
+  color: rgba(255, 255, 255, .5);
+}
+
+.btn-slide{
+  position:absolute;
+  top:50%;
+  z-index: 10;
+
+  height: 5.5rem;
+  width: 5.5rem;
+  cursor: pointer;
+}
+.prev{
+  left:3rem;
+  transform: translate(-50%, -50%);
+}
+.next{
+  right: 3rem;
+  transform: translate(50%, -50%); 
+}
+.dots-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.dot{
+  width: 25px;
+  height: 5px;
+  margin: 15px 5px;
+  border-radius: .5rem;
+  background: rgba(39,39,39, .5);
+  cursor: pointer;
+}
+.dot.active{
+background:#272727;
+}

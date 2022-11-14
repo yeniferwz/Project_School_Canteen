@@ -1,0 +1,33 @@
+[{
+    "id": 1,
+    "tipus": "menjar",
+    "nom": "bocata Atun",
+    "preu": 1.50,
+    "UrlImg": "../image/aaa",
+    "cant":1
+},
+{
+    "id": 2,
+    "tipus": "beguda",
+    "nom": "cocacola",
+    "preu": 2,
+    "UrlImg": "../image/aaa",
+    "cant":3
+},
+{
+    "id": 1,
+    "tipus": "menjar",
+    "nom": "bocata Llom",
+    "preu": 2.20,
+    "UrlImg": "../image/aaa",
+    "cant":2
+},
+{
+    "id": 2,
+    "tipus": "beguda",
+    "nom": "Aigua",
+    "preu": 1.80,
+    "UrlImg": "../image/aaa",
+    "cant":5
+}
+]

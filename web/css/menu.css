@@ -1,0 +1,121 @@
+*{
+    scroll-padding-top:2rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+.fil-ariadna{
+    margin-left: 100px;
+}
+.progress.is-orange::-webkit-progress-value{
+    background-color: #ff9505;
+}
+
+body{
+    background-color: #fbf8f8;
+    min-height: calc(100vh - 95px); 
+}
+
+.button.is-orange{
+    background-color: #ff9505;
+    color: white;
+    border-color: #ff9505;
+    font-weight: bold;
+}
+
+.product-content{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, auto));
+    column-gap: 1.5rem;
+    row-gap: 3rem;
+}
+
+.product-box{
+    position: relative;
+}
+
+.product-box:hover{
+    padding:10px;
+    border:1px solid black;
+    transition: 0.4s;
+}
+
+.product-img{
+    width: 100%;
+    height:fit-content;
+    margin-bottom: 0.5rem;
+}
+
+.nom{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.preu{
+    font-weight: 400;
+}
+
+.cart-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top:2rem;
+}
+
+/*boto de treure producte*/
+.minus{
+    float: right;
+    font-size:24px;
+    cursor:pointer;
+}
+
+/* boto d'afegir producte*/
+.plus{
+    float: right;
+    font-size: 24px;
+    cursor:pointer;
+}
+
+.button{
+    float:left;
+}
+
+#imatgeProducte{
+    width: 26px;
+    height: 26px;
+}
+
+/*CSS del carro*/
+/*boto esborrar en el carro*/
+.esborrar{
+    cursor: pointer;
+}
+
+.boxCistell{
+    padding: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.preuTotal{
+    text-align: end;
+}
+
+.button{
+    margin-left: 20px;
+}
+
+.sticky{
+    position: sticky;
+    top: 175px;
+}
